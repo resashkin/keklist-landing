@@ -1,0 +1,26 @@
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Build artifacts and compiled files
+/dist/
+/build/
+/out/
+*.log
+*.tmp
+*.cache
+
+# Environment variables and sensitive data
+.env 
+.DS_Store # macOS system files
+Thumbs.db # Windows system files
+
+# IDE or editor specific files/folders
+.idea/ # Common for IntelliJ/WebStorm
+.vscode/
+*.suo
+*.user
+
+# Placeholder for empty directories (Git doesn't track empty folders)
+# For example, if you need the `uploads` directory to exist:
+# uploads/.gitignore
